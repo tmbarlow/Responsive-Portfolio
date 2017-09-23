@@ -1,0 +1,208 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+body {
+	background: rgb(221, 221, 221);
+	font-size: 18px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 960px;
+	margin: auto;
+}
+
+header {
+ 	background: #ffffff;
+ 	width: auto;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+ 	overflow: auto;
+ }
+h1 {
+	color: #5aa9a3;
+	text-align: left;
+	padding: 15px;
+	border-bottom: solid; 
+	border-bottom-color: #dcdcdc;
+	margin: 15px;
+	font-size: 36px;
+}
+h2 {
+	color: #5aa9a3;
+	text-align: center;
+	padding: 15px;
+	border-bottom: solid; 
+	border-bottom-color: #dcdcdc;
+	margin: 15px;
+	font-size: 18px;
+	clear: both;
+}
+p {
+	color: #9d9db0;
+	text-align: left;
+	padding: 20px;
+}
+
+
+
+/*header*/
+
+#yourName {
+ 	background: #5aa9a3;
+    color: #ffffff;
+    padding: 25px;
+    margin-left: 100px;
+    margin-right: 200px;
+    font-size: 30px;
+    float: left;
+    width: 250px;
+}
+#about {
+ 	float: left;
+ 	background: #ffffff;
+ 	padding: 30px;
+ 	color: #9d9db0;
+
+}
+#portfolio {
+ 	float: left;
+ 	background: #ffffff;
+ 	padding: 30px;
+ 	color: #9d9db0;
+ }
+
+ #contact {
+ 	float: left;
+ 	background: #ffffff;
+ 	padding: 30px;
+ 	color: #9d9db0;
+ }
+/*main section*/
+
+
+#aboutMe {
+	margin-top: 20px;
+	margin-left: 100px;
+	background: #ffffff;
+	color: #5aa9a3;
+	width: 500px;
+	margin-bottom: 20px;
+	float: left;
+}
+#tyler {
+	height: 150px;
+	float: left;
+	margin-right: 20px;
+}
+
+/*sidebar*/
+#connect {
+	margin-top: 20px;
+	margin-left: 50px;
+	background: #ffffff;
+	color: #5aa9a3;
+	width: auto;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.img {
+	display: block;
+	height: 70px;
+	float: left;
+	margin: 5px;
+	padding-bottom: 20px;
+	}
+
+.connectMe {
+	width: 100%;
+}
+/*portfolio*/
+h3 {
+	padding-bottom: 15px;
+    border-bottom: solid;
+    border-bottom-color: #dcdcdc;
+    margin: 15px;
+    font-size: 18px;
+}
+.work h3 {
+    /* border-bottom: 0; */
+    background: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    /* position: absolute; */
+    bottom: 20px
+ 	padding: 15px;
+    /* width: 100%; */
+    line-height: 30px;
+    /* margin-bottom: 0; */
+    font-weight: 300;
+}
+#project1 {
+	width: 50%;
+	float: left;
+}
+
+#project2 {
+	width: 50%;
+	float: left;
+}
+#project3 {
+	width: 50%;
+	float: left;
+}
+#project4 {
+	width: 50%;
+	float: left;
+}
+
+#projectImage {
+	opacity: .8;
+}
+/*contact*/
+
+#contactContainer {
+	float: left;
+	text-align: left;
+	width: 100%;
+	}
+form {
+	clear: both;
+	padding: 20px;
+}
+
+
+label, input[type=text], textarea {
+	width: 100%;
+	padding: 5px;
+	text-align: left;
+	display: block;
+}
+input {
+	margin-bottom: 10px;
+}
+
+#message {
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+
+
+
+#fname {
+	text-align: left;
+}
+
+
+footer {
+	clear: both;
+	background: #666666;
+	padding: 25px;
+	border-top: solid;
+	border-top-color: #5aa9a3;
+}
