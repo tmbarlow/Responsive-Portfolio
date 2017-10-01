@@ -3,29 +3,25 @@
 
 <head>
 	<title>Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	 <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-	<header>
-		<div id ="yourName">Tyler Barlow
+	<header id="masthead">
+		<div class="container">
+			<div class="yourName">Tyler Barlow
+			</div>
+			<nav>
+				<a href="index.html"> About</a>
+				<a href="portfolio.html"> Portfolio</a>
+				<a href="contact.html"> Contact</a>
+			</nav>
 		</div>
-		<nav id="about">
-			<a href="index.html"> About</a>
-		</nav>
-
-		<nav id="portfolio">
-			<a href="portfolio.html"> Portfolio</a>
-		</nav>
-
-		<nav id="contact">
-			<a href="contact.html"> Contact</a>
-		</nav>
-
 	</header>
-	<section>
-		<div id="aboutMe">
+	<div id="main-container" class="container">
+		<section class="main-section">
 			<h1>Contact</h1>
 			
 			<div id="contactContainer">
@@ -42,26 +38,26 @@
 
 					<input type="submit" value="Submit">
 				</form>
+			</section>
+		<section class="sidebar">	
+			<div id="connect">
+				<h2>Connect with Me</h2>
+			
+					<a href="https://github.com/tmbarlow">
+						<img class="img" src="assets/images/GitHub.png" alt="GitHub" >
+					</a>
+					<a href="https://www.linkedin.com/in/tylerbarlow/">
+						<img class="img" src="assets/images/Linkedin.png" alt="Linkedin" >
+					</a>
+					<a href="https://stackoverflow.com/users/8524676/tyler-barlow">
+						<img class ="img" src="assets/images/stackoverflow.png" alt="Stackoverflow">
+					</a>
+				
 			</div>
-		</div>
-		
-		<div id="connect">
-			<h2>Connect with Me</h2>
-			<p class="connectMe">
-				<a href="https://github.com/tmbarlow">
-					<img class="img" src="assets/images/GitHub.png" alt="GitHub" >
-				</a>
-				<a href="https://www.linkedin.com/in/tylerbarlow/">
-					<img class="img" src="assets/images/Linkedin.png" alt="Linkedin" >
-				</a>
 
-				<a href="https://stackoverflow.com/users/8524676/tyler-barlow">
-					<img class ="img" src="assets/images/stackoverflow.png" alt="Stackoverflow">
-				</a>
-			</p>
+		</section>
 		</div>
 
-	</section>
 <footer>Copyright Tyler Barlow
 </footer>
 
