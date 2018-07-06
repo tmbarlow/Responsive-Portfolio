@@ -98,7 +98,7 @@ nav a {
 }
 
 #tyler {
-	height: 200px;
+	height: 300px;
 	float: left;
 	margin-right: 20px;
 }
@@ -135,8 +135,8 @@ p {
 	padding-bottom: 20px;
 	}
 h3,  h2 {
-	border-bottom: 2px: solid #eee;
-	padding-bottom; 15px;
+	border-bottom: 2px solid #eee;
+	padding-bottom: 15px;
 	line-height: 22px;
 	margin-bottom: 22px; 
 	text-align: center;
@@ -234,9 +234,6 @@ footer {
 }
 
 
-
-
-
 @media screen and (max-width: 768px){
 
 body {
@@ -319,11 +316,5 @@ a {
 	margin: 15px 0 15px 0;
 
 }
-
-
-}
-
-
-
 
 }
